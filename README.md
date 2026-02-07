@@ -5,7 +5,7 @@ It has an optional on board 16x GPIO expander, and uses common cheap add-on modu
 It has an Arduino heart using an Atmega32A as EEPROM and universal I/O emulator (so a legacy EPROM programmer is not needed) programmed with Arduino IDE.
 It is compatible with the uTerm (https://hackaday.io/project/165325) and uCom (https://hackaday.io/project/165709) boards. 
 
-# V20-MBC2 Firmware I2C OpCodes
+# V20-MBC Firmware I2C OpCodes
 Andy Jackson has ported the Z80-MBC2 firmware with I2C OpCodes to the V20-MBC firmware. He just V20-MBC firmware version S260320_R230520_IOS_V20-MBC for it.
 The V20-MBC firmware with the I2C OpCodes is available as version S260320_R230520_A010226_IOS-V20-MBC_I2C_Opcodes.
 With this addition, also the V20-MBC has the possibility to connect a LCD2004 display or other I2C devices to the board.
